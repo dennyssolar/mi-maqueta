@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(/imagenes/fondo.jpg)
+}
+#contenido, #header, #menu, #centro, #footer
+{
+    width: 1000px;
+    height: 700px;
+}
+#contenido
+{
+    height: 1000px;
+    margin: 0 auto;
+}
+#header
+{
+    height: 150px;
+    background-color: brown;
+}
+#logo
+{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+#banner
+{
+    height: 200px;
+    width: 800px;
+
+}
+#menu
+{
+    height: 50px;
+    background-color: rgb(153, 222, 152)
+}
+
+#footer
+{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(20, 15, 253);
+}
+ 
+#centro
+{
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(111, 145, 254);
+} 
+#der
+{
+    width: 700px;
+    height: 500px;
+    background-color: blueviolet;
+    float: left;
+}
